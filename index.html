@@ -1,0 +1,204 @@
+<html>
+<head>
+    <title>My Salon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width =device-width, initial-scale=1">
+</head>
+<body>
+    <section id="banner">
+        <img src="images/logo.png" class="logo">
+        <div class="banner-text">
+            <h1>Hair Studio</h1>
+            <p>Style Your Hair Is Style Your Life</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>Find Out</a>
+                <a href="#"><span></span> More</a>
+            </div>
+        </div>
+    </section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#banner">HOME</a></li>
+                <li><a href="#service">SERVISES</a></li>
+                <li><a href="#testimonial">TESTIMONITES</a></li>
+                <li><a href="#footer">MEET US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="manuBtn">
+        <img src="images/menu.png" id="menu">
+    </div>
+
+
+<!--service-->
+    <section id="service">
+        <div class="title-text">
+            <p>SERVICES</p>
+            <h1>We Provide Better</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <img src="images/pic-1.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Stypying</h3>
+                    <hr>
+                    <p>This is test under description of border
+                    foundation this is test under description of   
+                    barder foundation</p>
+                </div>
+
+            </div>
+            <div class="single-service">
+                <img src="images/pic-2.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Dry Shapoo</h3>
+                    <hr>
+                    <p>This is test under description of border
+                    foundation this is test under description of   
+                    barder foundation</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="images/pic-3.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Beard Trime</h3>
+                    <hr>
+                    <p>This is test under description of border
+                    foundation this is test under description of   
+                    barder foundation</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="images/pic-4.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Cut</h3>
+                    <hr>
+                    <p>This is test under description of border
+                    foundation this is test under description of   
+                    barder foundation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Testimonial-->
+     <section id="testimonial">
+        <div class="title-text">
+            <p>TESTIMONIAL</p>
+            <h1>What Client Says</h1>
+        </div>
+        <div class="testimonial-row">
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="images/img-1.jpg">
+                    <div class="user-info">
+                        <h4>SASINDU <i class="fa fa-twitter"></i></h4>
+                        <small>@sasindu</small>
+                    </div>
+                </div>
+                <p>Appearance gives you confidence.
+                It’s your jewel which turns the 
+                spotlight to your direction among
+                everybody else. The nature has already
+                concealed some beauty inside you.</p>
+            </div>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="images/img-2.jpg">
+                    <div class="user-info">
+                        <h4>Chathu <i class="fa fa-twitter"></i></h4>
+                        <small>@chathu</small>
+                    </div>
+                </div>
+                <p>Appearance gives you confidence.
+                It’s your jewel which turns the 
+                spotlight to your direction among
+                everybody else.</p>
+            </div>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="images/img-3.jpg">
+                    <div class="user-info">
+                        <h4>SATHSARA <i class="fa fa-twitter"></i></h4>
+                        <small>@sathsara</small>
+                    </div>
+                </div>
+                <p>Appearance gives you confidence.
+                It’s your jewel which turns the 
+                spotlight to your direction among
+                everybody else. The nature has already
+                concealed some beauty inside you.</p>
+            </div>
+        </div>   
+        </div>
+    </section>
+
+<!--footer-->
+    <section id="footer">
+        <div class="title-text">
+            <p>CONTACT</p>
+            <h1>Visit Shop Today<h1>
+        </div>
+        <div class="footer-row">
+            <img src="images/footer-img.png" class="footer-img">
+            <div class="footer-left">
+                <h1>Opening Hours</h1>
+                <p><i class="fa fa-clock-o"></i>Monday To Friday - 8am to 10pm</p>
+                <p><i class="fa fa-clock-o"></i>Saturday And Sunday - 9am to 7pm</p>
+            </div>
+            <div class="footer-right">
+                <h1>Get In Touch</h1>
+                <p>14 Male post,Kubukkana,Monaragala<i class="fa fa-map-marker"></i></p>
+                <p>sasinduyomal@gmail.com<i class="fa fa-paper-plane"></i></p>
+                <p>+055 143245623<i class="fa fa-phone"></i></p>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+
+        
+
+          
+    
+        
+
+    </section>
+
+
+
+    <script>
+        var manuBtn = document.getElementById("manuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right == "-250px";
+
+        manuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "images/close.png";
+            }
+            else{
+                sideNav.style.right = "-250px";
+                menu.src = "images/menu.png";
+            }
+        }
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	        speed: 1000,
+	        speedAsDuration: true
+        });
+    </script>
+
+        
+</body>
+</html>
